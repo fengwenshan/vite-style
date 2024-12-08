@@ -4,20 +4,23 @@
   "description": "",
   "main": "src/node/cli.ts",
   "bin": {
-    "ws-vite": "bin/ws-vite.js"
+    "ws-vite": "dist/ws-vite.js"
   },
   "scripts": {
-    "start": "tsx src/node/cli.ts"
+    "dev": "esbuild src/node/cli.ts --bundle --platform=node --outfile=dist/ws-vite.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/connect": "^3.4.38",
+    "chokidar": "^4.0.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "chokidar": "^4.0.1",
-    "cac": "^6.7.14"
+    "cac": "^6.7.14",
+    "connect": "^3.7.0",
+    "esbuild": "^0.24.0"
   }
 }

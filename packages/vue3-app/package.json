@@ -5,7 +5,8 @@
   "main": "src/main.ts",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "ws-vite --config config.js --host 0.0.0.0 --open true --cors true",
+    "dev": "ws-vite dev  /path/to/project --config config.js --host 0.0.0.0 --open true --cors true"
   },
   "keywords": [],
   "author": "",
