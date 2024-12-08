@@ -1,0 +1,23 @@
+{
+  "name": "ws-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/node/cli.ts",
+  "bin": {
+    "ws-vite": "bin/ws-vite.js"
+  },
+  "scripts": {
+    "start": "tsx src/node/cli.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.1",
+    "cac": "^6.7.14"
+  }
+}

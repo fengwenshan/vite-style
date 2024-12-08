@@ -1,0 +1,22 @@
+{
+  "name": "vue3-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "ws-vite": "workspace:*"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  }
+}
